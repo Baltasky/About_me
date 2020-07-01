@@ -1,4 +1,4 @@
-var txt = ("Hello guys! I'm Balta Rdz. I am 4 years old code, Coding has changed my world. Learning to code gave me problem-solving skills and a way to communicate with others programmers on technical level. I can also develop websites, console programs and use my coding skills to get a better jobs.");
+var txt = ("Hi, My name is Baltazar Rodriguez. I'm 6 years old studyin IT and everything that has to do with technology, this has changed my world. Learning diferents technolohies gave me problem-solving skills and a way to communicate with others engineers on technical level, and use my skills to get a better jobs");
 
 var x= 0;
 
