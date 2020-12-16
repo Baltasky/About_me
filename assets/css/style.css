@@ -1578,7 +1578,7 @@ Blog Area CSS
 .single-blog-post .post-content h3 {
   margin-bottom: 13px;
   line-height: 1.4;
-  font-size: 24px;
+  font-size: 27px;
   font-weight: 700;
 }
 
@@ -1676,7 +1676,7 @@ Blog Area CSS
 }
 
 .single-blog-post.white-color .post-content h3 a {
-  color: #ffffff;
+  color:#d9bd23;
 }
 
 .single-blog-post.white-color .post-content p {
@@ -2590,3 +2590,14 @@ Go Top CSS
   color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* My css*/
+
+.post-content span {
+  display: block;
+  color: #ffffff;
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: 700;
+}
