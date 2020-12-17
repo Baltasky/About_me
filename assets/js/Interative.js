@@ -6,5 +6,5 @@ function typeWriter(){
     document.getElementById("text").innerHTML += txt.charAt(x);
     x++
 }
-setInterval(typeWriter,90);
+setInterval(typeWriter,50);
 
