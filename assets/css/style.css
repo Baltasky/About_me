@@ -60,7 +60,7 @@ a:hover {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #000000;
+  color: #50e3c2;
 }
 
 img {
@@ -169,7 +169,7 @@ p:last-child {
 }
 
 .section-title.white-color::before {
-  background: #ffde29;
+  background: #50e3c2;
 }
 
 /*btn-primary*/
@@ -190,7 +190,7 @@ p:last-child {
 
 .btn-primary {
   color: #000000;
-  background-color: #ffde29;
+  background-color: #50e3c2;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
@@ -478,7 +478,7 @@ Navbar Area CSS
 }
 
 .navbar-light.bg-dark-color .navbar-nav .nav-item .nav-link {
-  color: #ffffff;
+  color: #50e3c2;
 }
 
 .navbar-light.bg-dark-color .navbar-nav .nav-item .nav-link::before {
@@ -749,7 +749,7 @@ Services Area CSS
   display: inline-block;
   width: 75px;
   height: 72px;
-  background: #ffde29;
+  background: #50e3c2;
   position: absolute;
   top: 0;
   left: 23px;
@@ -874,15 +874,17 @@ Services Area CSS
 }
 
 .single-services-box.bg-dark-color:hover {
-  background-color: #ffde29;
+  background-color: #50e3c2;
 }
 
 .single-services-box.bg-dark-color:hover h3 {
   color: #000000;
+  font-size: 24.5px;
 }
 
 .single-services-box.bg-dark-color:hover p {
-  color: #313131;
+  color: #000000;
+  font-size: 16.5px
 }
 
 .services-box {
@@ -1050,7 +1052,7 @@ Portfolio Area CSS
 }
 
 .single-portfolio-box .portfolio-content h3 a {
-  color: #ffde29;
+  color: #50e3c2;
 }
 
 .single-portfolio-box .portfolio-content span {
@@ -1214,7 +1216,7 @@ About Area CSS
 }
 
 .about-content.white-color .skills-list .skill-item .skill-bar .bar-inner .bar {
-  background: #ffde29;
+  background: #50e3c2;
 }
 
 .about-info-content h3 {
@@ -1312,234 +1314,6 @@ About Area CSS
   color: #ffffff;
 }
 
-/*================================================
-Testimonial Area CSS
-=================================================*/
-.testimonial-area {
-  padding-bottom: 90px;
-}
-
-.testimonial-area .section-title h2 {
-  color: #ffffff;
-}
-
-.testimonial-area .section-title .back-text {
-  opacity: .06;
-  color: #ffffff;
-}
-
-.testimonial-area .section-title::before {
-  background: #ffde29;
-}
-
-.single-feedback-item {
-  margin-bottom: 30px;
-  position: relative;
-  padding: 20px;
-  background-color: #ffde29;
-  border-radius: 5px;
-}
-
-.single-feedback-item p {
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-.single-feedback-item .client-info {
-  margin-top: 15px;
-  position: relative;
-  padding-left: 60px;
-}
-
-.single-feedback-item .client-info img {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  left: 0;
-}
-
-.single-feedback-item .client-info h3 {
-  margin-bottom: 2px;
-  font-size: 17px;
-  font-weight: 700;
-}
-
-.single-feedback-item .client-info span {
-  display: block;
-  font-size: 14px;
-}
-
-.single-feedback-item i {
-  position: absolute;
-  color: #000000;
-  opacity: .15;
-  right: 15px;
-  bottom: 0;
-}
-
-.single-feedback-item i::before {
-  font-size: 75px;
-}
-
-.single-feedback-item.bg-white {
-  background-color: #ffffff;
-}
-
-.single-feedback-item.bg-dark {
-  background-color: #000000 !important;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-feedback-item.bg-dark p {
-  color: #eeeeee;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-feedback-item.bg-dark .client-info h3 {
-  color: #ffffff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-feedback-item.bg-dark .client-info span {
-  color: #eeeeee;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-feedback-item.bg-dark:hover {
-  background-color: #ffde29 !important;
-}
-
-.single-feedback-item.bg-dark:hover p {
-  color: #331133;
-}
-
-.single-feedback-item.bg-dark:hover .client-info h3 {
-  color: #000000;
-}
-
-.single-feedback-item.bg-dark:hover .client-info span {
-  color: #331133;
-}
-
-.single-feedback-item.bg-gray-dark {
-  background-color: #111111;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-feedback-item.bg-gray-dark p {
-  color: #eeeeee;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-feedback-item.bg-gray-dark .client-info h3 {
-  color: #ffffff;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-feedback-item.bg-gray-dark .client-info span {
-  color: #eeeeee;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.single-feedback-item.bg-gray-dark:hover {
-  background-color: #ffde29;
-}
-
-.single-feedback-item.bg-gray-dark:hover p {
-  color: #313131;
-}
-
-.single-feedback-item.bg-gray-dark:hover .client-info h3 {
-  color: #000000;
-}
-
-.single-feedback-item.bg-gray-dark:hover .client-info span {
-  color: #313131;
-}
-
-.feedback-area {
-  position: relative;
-  z-index: 1;
-  background-color: #000000;
-  background-image: url(../img/main-banner1.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.feedback-area::before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background: #000000;
-  opacity: .78;
-  left: 0;
-  bottom: 0;
-}
-
-.single-feedback {
-  text-align: center;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.single-feedback i {
-  font-size: 35px;
-  color: #ffffff;
-}
-
-.single-feedback p {
-  color: #ffffff;
-  margin-bottom: 0;
-  margin-top: 25px;
-  font-size: 28px;
-  font-style: italic;
-  font-weight: 600;
-}
-
-.single-feedback h3 {
-  display: inline-block;
-  position: relative;
-  padding-left: 27px;
-  margin-bottom: 0;
-  margin-top: 30px;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.single-feedback h3 span {
-  font-size: 16px;
-}
-
-.single-feedback h3::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 6px;
-  width: 20px;
-  height: 1px;
-  background: #ffffff;
-}
-
-.feedback-slides {
-  cursor: e-resize;
-}
 
 /*================================================
 Blog Area CSS
@@ -1676,7 +1450,7 @@ Blog Area CSS
 }
 
 .single-blog-post.white-color .post-content h3 a {
-  color:#d9bd23;
+  color:#50e3c2;
 }
 
 .single-blog-post.white-color .post-content p {
@@ -1838,7 +1612,7 @@ Contact Area CSS
 
 .contact-info.white-color .social li a:hover {
   color: #ffffff;
-  background-color: #ffde29;
+  background-color: #50e3c2;
 }
 
 #contactForm .form-group {
@@ -1857,7 +1631,7 @@ Contact Area CSS
 
 #contactForm .btn-primary.main-color-btn {
   color: #000000;
-  background-color: #ffde29;
+  background-color: #50e3c2;
 }
 
 #contactForm .btn-primary.main-color-btn:hover, #contactForm .btn-primary.main-color-btn:focus {
@@ -1911,7 +1685,7 @@ Contact Area CSS
 
 #contactForm.white-color .btn-primary {
   color: #000000;
-  background-color: #ffde29;
+  background-color: #50e3c2;
 }
 
 #contactForm.white-color .btn-primary:hover, #contactForm.white-color .btn-primary:focus {
@@ -2564,7 +2338,7 @@ Go Top CSS
   cursor: pointer;
   top: 0;
   right: 15px;
-  background-color: #000000;
+  background-color: #50e3c2;
   color: #ffffff;
   z-index: 4;
   width: 40px;
